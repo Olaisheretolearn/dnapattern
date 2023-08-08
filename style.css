@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Arimo&display=swap');
+        body {
+            background-color: white;
+            color: #dcddde;
+            font-family: 'Agdasima', sans-serif;
+            font-family: 'Arimo', sans-serif;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+        }
+    
+        #app {
+            width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 8px;
+            background-color: rgb(231, 221, 221);
+            margin-top: 100px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        }
+    
+        h1 {
+            text-align: center;
+            color: black;
+            margin-top: 70px;
+            font-weight: 200;
+            font-size: 23px;
+            background-color: black;
+            width: 30%;
+            color: white;
+            padding: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius:8px;
+        }
+
+        #monkey {
+            position: absolute;
+            top: 11%;
+            left: 84%;
+            width: 10%;
+        }
+
+        @media screen and (min-width: 800px) {
+            #monkey {
+                top: 13%;
+                left: 84%;
+                width: 3%;
+            }
+        }
+        
+        
+        @media screen and (max-width: 800px) {
+            #monkey {
+                top: 12%;
+                left: 80%;
+            }
+        }
+        
+        @media screen and (max-width: 600px) {
+            #monkey {
+                top: 44%;
+                left: 75%;
+            }
+        }
+        
+        
+        textarea {
+            height: 150px;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 3px;
+            border: none;
+            color: black;
+            overflow: auto;
+            border:3px solid black;
+            width: 88%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+       
+    
+        button {
+            width: 20%;
+           padding: 10px;
+            border: none;
+            border-radius: 3px;
+            color: #dcddde;
+            background-color: black;
+            cursor: pointer;
+            margin-bottom: 10px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    
+        button:hover {
+            background-color: #677bc4;
+        }
+    
+        #result{
+            color: #8e9297;
+            overflow: scroll;
+            width: 90%;
+            text-align: left;
+            padding :10px;
+            border-radius :7px;
+            margin-left: auto;
+            margin-right: auto;
+           
+        }
+
+        p{
+            text-align: center;
+            color: #312c2c;
+            font-size:14px;
+        }
+
+        .chart {
+            width: 400px; /* Set the desired width */
+            height: 300px; /* Set the desired height */
+          }
+
+          @media screen and (max-width: 600px) {
+            /* CSS styles for phone screen go here */
+        
+            body {
+                margin: 0;
+                padding: 0;
+                font-size: 16px;
+            }
+        
+            h1 {
+                font-size: 16px;
+                width:70%;
+            }
+
+            #monkey{
+                position: absolute;
+                top:135;
+                left:323;
+                width:12%
+            }
+
+            
+        p{
+            text-align: center;
+            color: #312c2c;
+            font-size:12px;
+        }
+        
+            /* The CSS styles within this media query will only apply when the 
+            browser window is 600px wide or less */
+        }
+        
+          
+  
