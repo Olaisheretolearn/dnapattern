@@ -2,6 +2,8 @@
 
 Welcome to the **KMP String Search Visualization** tool! Dive deep into the string searching algorithm using our visualization tool that highlights the occurrences of a pattern in a given text. Along with that, visualize the frequency of these occurrences using an interactive bar chart!
 
+live preview at https://dnapattern.netlify.app/
+
 ### 🌟 Features
 - **🔍 String Match**: Use the KMP algorithm to find all occurrences of a pattern in a given text.
 - **🔖 Text Highlight**: Easily identify pattern occurrences in the text with a highlighted background.
