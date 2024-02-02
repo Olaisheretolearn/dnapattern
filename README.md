@@ -19,7 +19,7 @@ live preview at https://dnapattern.netlify.app/
 
 3. **View Results**:
    - The main text will be displayed with the pattern occurrences highlighted.
-   - At the bottom, a grouped bar chart showcases the frequency of these occurrences.
+   - At the bottom, a grouped bar chart showcases the frequency of these occurrences of the pattern.
 
 ### 🔎 Behind the Scenes
 
