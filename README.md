@@ -33,7 +33,7 @@ The provided JavaScript code employs the Knuth-Morris-Pratt (KMP) algorithm for 
 
 ### 🤝 Contributions
 
-Open to collaboration! 🤗 For significant modifications, please open an issue first to discuss your plans or ideas.
+Open to collaboration! 🤗 For significant modifications, please open an issue first to discuss your plans.
 
 ### 📜 License
 [MIT](https://choosealicense.com/licenses/mit/)
